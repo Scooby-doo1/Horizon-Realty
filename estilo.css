@@ -22,9 +22,9 @@
 }
 
 /* Alternativa: se quiser aplicar direto na imagem */
-/* .header-logo img:hover {
+.header-logo img:hover {
     transform: rotate(10deg);
-} */
+} 
 
 
 header {
@@ -146,17 +146,31 @@ header {
     background-color: black;
     color: white;
 }
-/* Input do main */
 
+/* Input do main */
 input{
     display: flex;
+    position: relative;
+    left: 500px;
     padding: 10px;
     width: 750px;
-    margin: 20px;
-    justify-content: center;
+    margin: 20px ;
+    border-radius: 5px;
+    border: 2px solid rgb(54, 54, 54);
 }
 .comprar{
-    width: 650px;
-    height: 200px;
-    background-color: red;
+    width: 690px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+}
+.imagens{
+    height: 247px;
+    border-radius: 3px;
+}
+.comprar:hover{
+    transform: scale(1.01);
+    transition: transform .3s ease-in;
 }

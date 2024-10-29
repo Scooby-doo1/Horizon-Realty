@@ -159,12 +159,13 @@ input{
     border: 2px solid rgb(54, 54, 54);
 }
 .comprar{
-    width: 60%;
+    width: 40%;
     height: 250px;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 100px;
 }
 .imagens{
     height: 247px;

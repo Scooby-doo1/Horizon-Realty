@@ -150,16 +150,16 @@ header {
 /* Input do main */
 input{
     display: flex;
-    position: relative;
-    left: 500px;
     padding: 10px;
-    width: 750px;
-    margin: 20px ;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    /* margin: 20px; */
     border-radius: 5px;
     border: 2px solid rgb(54, 54, 54);
 }
 .comprar{
-    width: 690px;
+    width: 60%;
     height: 250px;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);

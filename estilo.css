@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+/* Animação de rotação no hover */
+.header-logo:hover {
+    transform: rotate(20deg);
+    /* Rotação suave de 10 graus */
+}
+
+/* Caso queira que a imagem também tenha uma transição suave */
+.header-logo img {
+    transition: transform 0.5s ease;
+}
+
+/* Alternativa: se quiser aplicar direto na imagem */
+/* .header-logo img:hover {
+    transform: rotate(10deg);
+} */
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.967);
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu nav a {
+
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: .875rem;
+}
+
+
+.cor {
+    color: white;
+}
+
+.cor {
+    color: white;
+    position: relative;
+    transition: color 0.3s;
+}
+
+/* Faz o Tracinho na classe Nav */
+.cor::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(193, 193, 193, 0.71);
+    transition: width 0.3s ease;
+}
+
+/* Define a largura do elemento */
+.cor:hover::after {
+    width: calc(100% - 50px);
+}
+
+
+.Create-account {
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 105px;
+    height: 2.30rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    font-size: .875rem;
+    font-weight: bold;
+    transition: transform .3s ease-in;
+
+}
+
+.Create-account:hover {
+    transform: scale(1.1);
+    border: 3px solid white;
+}
+
+.login {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 0 1.5rem;
+    border-radius: 12px;
+    border: 3px solid rgb(237, 236, 238);
+    width: 105px;
+    height: 2.30rem;
+    font-size: .875rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform .3s ease-in;
+
+}
+
+.login:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+.menu-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastrar {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.Create-account:hover {
+    background-color: black;
+    color: white;
+}
